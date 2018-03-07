@@ -21,27 +21,27 @@ p, li {
     color: black;
     margin: 5px 0px 0px 0px;
     list-style-type: none;
+        
 }
 
-
 a:link {
-    color: black;
+    color: palevioletred;
     text-decoration: none;
     font-weight: bold; 
 }
 
 a:visited {
-    color: deeppink;
+    color: black;
 }
 
 a:hover {
-    color: darkgrey;
+    color: darkgray;
 }
 
 .align-right {
     float: right;
     padding-right: 100px;
-    margin: -210px 0px 20px 20px;
+    margin: -230px 0px 20px 20px;
  }
 
 img {
@@ -65,10 +65,12 @@ body {
 }
 
 .navigatie {
-    padding: 5px;
-    border:2px;
     position:absolute;
-    margin: 110px 1000px 0px 640px;
+    margin: 95px 1000px 0px 640px;
+    align-content: center;
+    font-size: 12px;
+    padding: -2px;
+ 
    }
 
 .paragraaf1 {
@@ -88,5 +90,5 @@ body {
 
 img.foto {
     width: 33%;
-    height: 150%;
+    height: 140%;
 }
